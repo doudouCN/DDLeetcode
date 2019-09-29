@@ -50,12 +50,13 @@ public class LinkTwoNumPlus {
 
         ListNode source = addTwoNumbers(l1, l2);
     }
-}
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+        }
     }
+
 }
